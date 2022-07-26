@@ -51,7 +51,7 @@
 </p> -->
 
 <p style="line-height: 22.5px;">
-  Hacker Lab is without a doubt <span style="color: cornflowerblue;">the most inspiring, professional and well-equipped makerspace that I have ever encountered</span> and I literally can't imagine Sacramento's tech or arts culture without it's presence. Just to be clear I am not an official representative of Hacker Lab, just a fairly new member that desperately wants it to survive.
+  Hacker Lab is without a doubt <span style="color: cornflowerblue;">the most inspiring, professional and well-equipped makerspace that I have ever encountered</span> and I literally can't imagine Sacramento's tech or arts culture without it's presence. I'm just a fairly new member Although and not an official representative of Hacker Lab but I nonetheless desperately want it to survive and already can't imagine a future here without it.
 </p>
 
 <p style="line-height: 22.5px;">  
