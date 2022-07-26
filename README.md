@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=0.8">
-  <title>Please Save Hacker Lab 🙏✨</title>
-</head>
-
 <body style="
   width: 500px;
   max-width: 90%;
@@ -264,48 +254,3 @@
     Hacker Lab's official announcement</a>
 
 </body>
-
-<script>
-  var countDownDate = new Date("August 1, 2022 00:00:00").getTime();
-  var countdownHtml = `<h2 style="font-weight: 100; margin-top: 50px;">Hacker Lab will start closing in...</h2><p style="font-size: 12px; margin-bottom: 70px;"><span id="days" style='color: cornflowerblue; font-size: 30px; font-weight: 100;'></span> days<span id="hours" style='color: cornflowerblue; font-size: 30px; font-weight: 100; margin-left: 7.5px;'></span> hours<span id="minutes" style='color: cornflowerblue; font-size: 30px; font-weight: 100; margin-left: 7.5px;'></span>minutes<span id="seconds" style='color: cornflowerblue; font-size: 30px; font-weight: 100; margin-left: 7.5px;'></span>seconds</p>
-  `;
-
-  document.querySelector("#countdown").innerHTML = countdownHtml;
-
-  var x = setInterval(function () {
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    document.getElementById("days").innerHTML = days;
-    document.getElementById("hours").innerHTML = hours;
-    document.getElementById("minutes").innerHTML = minutes;
-    document.getElementById("seconds").innerHTML = seconds;
-
-    if (distance < 0) {
-      clearInterval(x);
-      document.getElementById("demo").innerHTML = "EXPIRED";
-    }
-  }, 1000);
-
-  function copyToClipboard() {
-    const tempElement = document.createElement('textarea');
-    tempElement.value = "contact@hackerlab.org";
-    tempElement.style.position = 'fixed';
-    tempElement.style.left = '0';
-    tempElement.style.top = '0';
-    tempElement.style.opacity = '0';
-    document.body.appendChild(tempElement);
-    tempElement.focus();
-    tempElement.select();
-    document.execCommand('copy');
-    document.body.removeChild(tempElement);
-    alert("Email copied to clipboard!")
-  }
-
-</script>
-
-</html>
